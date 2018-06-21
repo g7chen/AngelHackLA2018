@@ -56,9 +56,12 @@
 
 <div id="video" style="margin:0 auto;">
     <section class="inline">
-    <div id="agora_local" style="float:center;width:210px;height:147px;display:inline-block;"></div>
-    <div id="reward"></div>
-  </section>
+    <div>
+      <span id="agora_local" style="float:center;width:210px;height:147px;display:inline-block;"></span>
+      <span id="reward"></span>
+    </div>
+    </section>
+
 </div>
 
 <section class="button">
@@ -337,7 +340,7 @@ function disableVideo()
             triggered = true;
             $('#agora_local').append('<img #skittle src="images/skittles50.png">');
           }
-          
+
           //drawFeaturePoints(image, faces[0].featurePoints);
         }
       });
